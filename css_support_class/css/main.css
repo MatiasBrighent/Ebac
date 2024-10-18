@@ -4,15 +4,26 @@
     padding: 0;
 }
 
-#Esportes{
-    color: green;
+header li{
+    display: inline;
 }
 
-#Economia{
-    color: goldenrod;
+.container{
+    width: 1366px;
+    margin: 0 auto;
+
 }
 
-.creation-date{
-    color: gray;
+.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
+.articles article img{
+    height: 180px;
+}
+
+.articles article{
+    width: 30%;
+}
