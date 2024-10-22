@@ -4,8 +4,24 @@
     padding: 0;
 }
 
+body > header{
+    background-color: #2f3640;
+    color: #f5f6fa;
+    padding: 16px 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 header li{
     display: inline;
+}
+
+header li a{
+    color: #f5f6fa;
 }
 
 .container{
@@ -26,4 +42,35 @@ header li{
 
 .articles article{
     width: 30%;
+}
+
+section{
+    padding: 16px 0;
+
+}
+
+section h2,
+.articles article{
+    margin-bottom: 16px;
+}
+
+.articles article h3{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+article .link-esporte{
+    margin-top: 3px;
+    background-color: green;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
+}
+
+article .link-economia{
+    margin-top: 3px;
+    background-color: goldenrod;
+    color: #fff;
+    padding: 8px;
+    display: inline-block;
 }
