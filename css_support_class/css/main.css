@@ -18,10 +18,14 @@ header .container{
 
 header li{
     display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 16px;
 }
 
 header li a{
     color: #f5f6fa;
+    text-decoration: none;
 }
 
 .container{
@@ -37,7 +41,7 @@ header li a{
 }
 
 .articles article img{
-    height: 180px;
+    height: 300px;
 }
 
 .articles article{
@@ -60,17 +64,50 @@ section h2,
 }
 
 article .link-esporte{
-    margin-top: 3px;
     background-color: green;
     color: #fff;
+    margin-top: 8px;
     padding: 8px;
+    font-weight: 600;
     display: inline-block;
+    text-decoration: none;
 }
 
 article .link-economia{
-    margin-top: 3px;
     background-color: goldenrod;
     color: #fff;
+    margin-top: 8px;
     padding: 8px;
+    font-weight: 600;
     display: inline-block;
+    text-decoration: none;
+}
+
+article .link-esporte:hover{
+    text-decoration: underline;
+}
+
+article .link-economia:hover{
+    text-decoration: underline;
+}
+
+.articles article p,
+.articles article a{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section h3{
+    font-size: 24px;
+}
+
+section h2{
+    font-size: 32px;
+}
+
+#sports{
+    background-color: rgba(0, 255, 0, 0.1);
+}
+
+#economy{
+    background-color: #f0f59f;
 }
