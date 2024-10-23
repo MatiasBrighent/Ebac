@@ -42,6 +42,7 @@ header li a{
 
 .articles article img{
     height: 300px;
+    width: 360px;
 }
 
 .articles article{
@@ -83,11 +84,39 @@ article .link-economia{
     text-decoration: none;
 }
 
+article .link-technology{
+    background-color: rgb(50, 43, 148);
+    color: #fff;
+    margin-top: 8px;
+    padding: 8px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+}
+
+article .link-entertainment{
+    background-color: rgb(155, 16, 160);
+    color: #fff;
+    margin-top: 8px;
+    padding: 8px;
+    font-weight: 600;
+    display: inline-block;
+    text-decoration: none;
+}
+
 article .link-esporte:hover{
     text-decoration: underline;
 }
 
 article .link-economia:hover{
+    text-decoration: underline;
+}
+
+article .link-technology:hover{
+    text-decoration: underline;
+}
+
+article .link-entertainment:hover{
     text-decoration: underline;
 }
 
@@ -110,4 +139,12 @@ section h2{
 
 #economy{
     background-color: #f0f59f;
+}
+
+#technology{
+    background-color: rgba(0, 0, 220, 0.1);
+}
+
+#entertainment{
+    background-color: rgba(158, 13, 158, 0.1) ;
 }
