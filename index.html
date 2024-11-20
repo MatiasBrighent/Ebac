@@ -7,11 +7,23 @@
     <link rel="stylesheet" href="./main.css">
 </head>
 <body>
-    <h1></h1>
+    <div class="container">
+        <h1>Vamos comparar números.</h1>
+        <p>Escolha dois valores para compararmos. Para ter sucesso o segundo valor deve ser maior que o primeiro</p>
+        <form id="form-compara">
+            <input type="number" required placeholder="escolha um número">
+            <p class="error-message">
+                Você precisa selecionar um número
+            </p>
+            <input type="number"required  placeholder="escolha mais um número ">
+            <p class="error-message">
+                Você precisa selecionar um número
+            </p>
+            <button id="btn-verificar">Comparar</button>
+        </form>
+        <p class="message"></p>
+    </div>
 
-
-
-    
     <script src="./main.js"></script>
 </body>
 </html>

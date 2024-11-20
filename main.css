@@ -1,7 +1,66 @@
 *{
-    max-width: 640px;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
     font-family: sans-serif;
+}
+
+
+.container{
+    margin: 40px auto;
+    max-width: 640px;
+    width: 100%;
+}
+
+h1{
+    margin-bottom: 8px;
+}
+
+form{
+    margin-top: 16px ;
+}
+
+input, textarea, button {
+    display: block;
+    padding: 8px;
+    margin-bottom: 8px;
+    width: 60%;
+    resize: none;
+}
+
+button{
+    color: #fff;
+    background-color: rgb(15, 133, 15);
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: italic;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(35, 175, 35);
+}
+
+.sucess-mesage{
+    font-size: 12px;
+    background-color: rgb(35, 175, 35); 
+    padding: 16px;
+    color: #fff;
+    display: none;
+}
+
+.error-message{
+    font-size: 12px;
+    background-color: firebrick;
+    padding: 16px;
+    color: #fff;
+    display: none;
+    margin-bottom: 8px;
+}
+
+input.error{
+    color:firebrick;
+    border-color: firebrick;
+    outline-color:firebrick
 }
