@@ -12,7 +12,8 @@
     width: 100%;
 }
 
-h1{
+h1, p{
+    margin-left: 8px;
     margin-bottom: 8px;
 }
 
@@ -24,6 +25,7 @@ input, textarea, button {
     display: block;
     padding: 8px;
     margin-bottom: 8px;
+    margin-left: 100px;
     width: 60%;
     resize: none;
 }
@@ -42,25 +44,7 @@ button:hover{
     background-color: rgb(35, 175, 35);
 }
 
-.sucess-mesage{
-    font-size: 12px;
-    background-color: rgb(35, 175, 35); 
-    padding: 16px;
-    color: #fff;
-    display: none;
-}
-
-.error-message{
-    font-size: 12px;
-    background-color: firebrick;
-    padding: 16px;
-    color: #fff;
-    display: none;
-    margin-bottom: 8px;
-}
-
-input.error{
-    color:firebrick;
-    border-color: firebrick;
-    outline-color:firebrick
+#resultado{
+    margin-left: 8px;
+    margin-top: 16px;
 }
