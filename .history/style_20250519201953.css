@@ -5,29 +5,23 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-
 .container h1{
     color: #1877f2;
     font-weight: 700;
     padding: 24px 0;
-    margin: 0 20vw;
+    margin: 0 50px;
 }
 
 .cadastro{
     width: 50%;
-    margin-left: 10vw;
-
 }
 
 .cadastro form input{
     width: 100%;
+    padding: 10px;
     margin-bottom: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;
-}
-
-#termos{
-    margin-bottom: 8px;
 }
 
 .cadastro .btn{

@@ -14,7 +14,7 @@
 }
 
 .cadastro{
-    width: 50%;
+    
     margin-left: 10vw;
 
 }
@@ -24,10 +24,6 @@
     margin-bottom: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;
-}
-
-#termos{
-    margin-bottom: 8px;
 }
 
 .cadastro .btn{

@@ -5,34 +5,28 @@
     font-family: Helvetica, Arial, sans-serif;
 }
 
-
 .container h1{
+    text-align: center;
     color: #1877f2;
     font-weight: 700;
     padding: 24px 0;
-    margin: 0 20vw;
+    margin: 0;
 }
 
 .cadastro{
     width: 50%;
-    margin-left: 10vw;
-
 }
 
 .cadastro form input{
     width: 100%;
+    padding: 10px;
     margin-bottom: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
 
-#termos{
-    margin-bottom: 8px;
-}
-
 .cadastro .btn{
     border: none;
     background-color: #42b72a;
-    padding:  12px;
-    margin-left: 15vw;
+    padding:  16px;
 }

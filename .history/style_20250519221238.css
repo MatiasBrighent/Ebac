@@ -21,15 +21,15 @@
 
 .cadastro form input{
     width: 100%;
+    padding: 10px;
     margin-bottom: 8px;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
 
-#termos{
-    margin-bottom: 8px;
+#aceito-termos{
+    display: inline-block;
 }
-
 .cadastro .btn{
     border: none;
     background-color: #42b72a;

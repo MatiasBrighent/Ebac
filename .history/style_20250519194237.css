@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #cccc;
+}
+
+.cadastro{
+    width: 50%;
+}
+
+button{
+    background-color: #42b72a;
+}

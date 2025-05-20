@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 720px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #cccc;
+}
+
+.container h1{
+    text-align: center;
+}
+
+.cadastro{
+    width: 50%;
+}
+
+.cadastro form{
+    padding-bottom: 8px;
+}
