@@ -72,23 +72,23 @@ section .products .product-button:hover {
   background-color: rgb(79.3493723849, 203.640167364, 60.859832636);
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .container {
-    max-width: 90%;
+    width: 80%;
   }
-  .products {
+  section .products {
     grid-template-columns: repeat(2, 48.5%);
     column-gap: 3%;
   }
 }
 @media screen and (max-width: 768px) {
   .container {
-    max-width: 90%;
+    width: 80%;
   }
-  .products {
+  section .products {
     display: block;
   }
-  .product-item {
+  section .products .product-item {
     margin-bottom: 32px;
   }
 }

@@ -71,28 +71,26 @@ section{
     }
 }
 
-@media screen and (max-width: variaveis.$tablet) {
+@media screen and (max-width: 1023px) {
     .container {
-        max-width: 90%;
+        width: 80%;
     }
 
-    .products {
+    section .products {
         grid-template-columns: repeat(2, 48.5%);
         column-gap: 3%;
     }
 }
-
-@media screen and ( max-width: variaveis.$mobile){
-    .container{
-        max-width: 90%;
+@media screen and (max-width: 768px) {
+    .container {
+        width: 80%;
     }
-    .products {
+    
+    section .products {
         display: block;
-    }
 
-    .product-item  {
-        margin-bottom: 32px;
+        .product-item  {
+            margin-bottom: 32px;
+        }
     }
-
 }
-
