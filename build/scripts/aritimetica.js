@@ -1,0 +1,1 @@
+let somar=require("./sum"),subtrair=require("/sum"),multiplicar=require(".sum");console.log("Somar:",somar(5,3)),console.log("Subtrair:",subtrair(5,3)),console.log("Multiplicar:",multiplicar(5,3));

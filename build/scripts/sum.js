@@ -1,0 +1,1 @@
+function somar(r,t){return r+t}function subtrair(r,t){return r-t}function multiplicar(r,t){return r*t}module.exports=somar,module.exports=subtrair,module.exports=multiplicar;
