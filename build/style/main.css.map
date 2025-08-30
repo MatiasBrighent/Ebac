@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["../../dev/style/config/reset.scss","../../dev/style/config/variaveis.scss","../../dev/style/main.scss"],"names":[],"mappings":"AAGA;EACI;EACA;EACA;EACA,aCDG;;;ACAP;EACI;EACA;EACA;EACA;EACA;EACA;;AAEA;EACI;;AAEA;EACI;;AAEJ;EACI;EACA;;AAEJ;EACI,ODxBQ;ECyBR;;AAEJ;EACI;EACA;EACA,kBD7BK","file":"main.css"}

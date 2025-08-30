@@ -1,0 +1,35 @@
+// variaveis
+@use 'config/variaveis' as *;
+@use 'config/reset' as *;
+
+
+
+.products{ /*bloco */
+    max-width: 640px;
+    width: 100%;
+    margin: 12px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-column-gap: 1%;
+
+    .product{ /*elemento*/
+        border: 1px solid #ccc;
+
+        &__img{ /*elemento*/
+            width: 100%;
+        }
+        &__title{ /*elemento*/
+            font-size: 1.2rem;
+            margin: 8px 0;
+        }
+        &__description{ /*elemento*/
+            color: $description-color;
+            margin-bottom: 4px;
+        }
+        &--featured{ /*modificador*/
+            padding: 8px;
+            border: 2px solid $border-featured-color;
+            background-color: $featured-color;
+        }
+    }
+}
